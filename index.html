@@ -6,10 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>화면 테스트</title>
     <style>
-        html {-webkit-text-size-adjust: none; -moz-text-size-adjust: none; -ms-text-size-adjust: none;}
+        /* * Noto Sans KR (korean) http://www.google.com/fonts/earlyaccess */
+        @font-face {
+            font-family: 'Noto Sans KR';
+            font-style: normal;
+            font-weight: 400;
+            src: url(https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2) format('woff2'),
+            url(https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff) format('woff'),
+            url(https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf) format('opentype');
+        }
+
+        @font-face {
+            font-family: 'Noto Sans KR';
+            font-style: normal;
+            font-weight: 700;
+            src: url(https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff2) format('woff2'),
+            url(https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff) format('woff'),
+            url(https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.otf) format('opentype');
+        }
+
+        @font-face {
+          font-family: 'Jalnan';
+          src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+          font-weight: normal;
+          font-style: normal;
+        }
+
+
+
+
+        html {-webkit-text-size-adjust: none; -moz-text-size-adjust: none; -ms-text-size-adjust: none;font-family:'Noto Sans KR',"Apple SD Gothic Neo","Malgun Gothic",sans-serif; }
         button {background:none; border:none; cursor: pointer;}
         .row {width:100%; margin-bottom:5px; font-size:0;}
-        select {-webkit-appearance: none;-moz-appearance: none;appearance: none;border-radius: 0px; font-family: inherit;}
+        select {-webkit-appearance: none;-moz-appearance: none;appearance: none;border-radius: 0px; font-family:'Noto Sans KR',"Apple SD Gothic Neo","Malgun Gothic",sans-serif;}
         .select select {width:100%; padding:10px 30px 10px 10px; border-radius:2px; border:1px solid #ddd; background:url(../../images/ico_select.png) no-repeat right 20px top 50%/ 10px auto; line-height:20px; font-size:16px; color:#ccc; vertical-align: middle;}
         span.select {display:inline-block; width:25%; box-sizing:border-box}
         span.select + span.select {padding-left:10px;}
