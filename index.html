@@ -135,8 +135,7 @@
 		</span>
         s
 	</div>
-    <style type="text/css">
-    input[type='date'], input[type='time'] {-webkit-appearance: none;}
+    <style type="text/css">     
     .calendar-box {margin-top:20px; font-size:0 }
     .calendar-box > span {display:inline-block;}
     .calendar-box label {display:block; margin-bottom:6px; font-size:12px; color:#666;}
@@ -146,6 +145,10 @@
   
       
     /* date */
+    input[type='date'], input[type='time'],::-webkit-search-cancel-button, ::-webkit-clear-button {-webkit-appearance: none;}
+    input[type='date'],
+    ::-webkit-search-cancel-button,
+    ::-webkit-clear-button {background-image: url('data:image/svg+xml;charset=utf8,%3Csvg fill="%23000" fill-opacity=".54" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M12,2C17.53,2 22,6.47 22,12C22,17.53 17.53,22 12,22C6.47,22 2,17.53 2,12C2,6.47 6.47,2 12,2M15.59,7L12,10.59L8.41,7L7,8.41L10.59,12L7,15.59L8.41,17L12,13.41L15.59,17L17,15.59L13.41,12L17,8.41L15.59,7Z"/%3E%3Cpath d="M0 0h24v24H0z" fill="none"/%3E%3C/svg%3E');}
     input[type="date"]::-webkit-inner-spin-button { opacity: 0}
     input[type="date"]::-webkit-calendar-picker-indicator {background: url(https://img.favpng.com/24/2/22/calendar-icon-png-favpng-UPkMKJ8qTxuZxVJhMh693bfwa.jpg) center/80% no-repeat; color: #111; opacity: 0.8}
     input[type="date"]::-webkit-calendar-picker-indicator:hover {background: url(https://img.favpng.com/24/2/22/calendar-icon-png-favpng-UPkMKJ8qTxuZxVJhMh693bfwa.jpg) center/80% no-repeat; opacity: 1 }
