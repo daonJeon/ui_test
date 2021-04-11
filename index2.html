@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>화면 테스트</title>
+    <style>
+        /* * Noto Sans KR (korean) http://www.google.com/fonts/earlyaccess */
+        @font-face {
+            font-family: 'Noto Sans KR';
+            font-style: normal;
+            font-weight: 400;
+            src: url(https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2) format('woff2'),
+            url(https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff) format('woff'),
+            url(https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf) format('opentype');
+        }
+
+        @font-face {
+            font-family: 'Noto Sans KR';
+            font-style: normal;
+            font-weight: 700;
+            src: url(https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff2) format('woff2'),
+            url(https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff) format('woff'),
+            url(https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.otf) format('opentype');
+        }
+
+        @font-face {
+          font-family: 'Jalnan';
+          src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+          font-weight: normal;
+          font-style: normal;
+        }
+
+        html {-webkit-text-size-adjust: none; -moz-text-size-adjust: none; -ms-text-size-adjust: none;font-family:'Noto Sans KR',"Apple SD Gothic Neo","Malgun Gothic",sans-serif; }
+        button {background:none; border:none; cursor: pointer;}
+        .row {width:100%; margin-bottom:5px; font-size:0;}
+        select {-webkit-appearance: none;-moz-appearance: none;appearance: none;border-radius: 0px; font-family:'Noto Sans KR',"Apple SD Gothic Neo","Malgun Gothic",sans-serif;}
+        .select select {width:100%; padding:10px 10px 10px 10px; border-radius:2px; border:1px solid #ddd; background:url(ico_select.png) no-repeat right 5px top 50%/ 10px auto; line-height:20px; font-size:16px; color:#ccc; vertical-align: -2px;}
+        span.select {display:inline-block; width:25%; vertical-align: middle; box-sizing:border-box}
+        span.select + span.select {padding-left:10px;}
+
+        button {margin-left:10px; width:80px; padding:10px; line-height:20px; font-size:13px; border:1px solid #ddd; background-color:#ddd; color:#fff; vertical-align: middle; }
+        .row.selBtn span.select {width:calc((100% - 90px)/4)} 
+        .row.selBtn span.select select {font-family:'Jalnan','Noto Sans KR',"Apple SD Gothic Neo","Malgun Gothic",sans-serif;} 
+        .desc {font-family:'Jalnan','Noto Sans KR',"Apple SD Gothic Neo","Malgun Gothic",sans-serif;} 
+    </style>    
+</head>
+<body>
+    <div class="row">
+        <div class="select">
+            <select name="" id="">
+                <option value="0">노토</option>
+                <option value="1">100</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="row">
+        <span class="select">
+            <select name="" id="">
+                <option value="0">sdkfj</option>
+                <option value="1">100</option>
+            </select>
+        </span>
+        <span class="select">
+            <select name="" id="">
+                <option value="0">100</option>
+                <option value="1">100</option>
+            </select>
+        </span>
+        <span class="select">
+            <select name="" id="">
+                <option value="0">100</option>
+                <option value="1">100</option>
+            </select>
+        </span>
+        <span class="select">
+            <select name="" id="">
+                <option value="0">100</option>
+                <option value="1">100</option>
+            </select>
+        </span>
+    </div>
+
+    <div class="row selBtn">
+        <span class="select">
+            <select name="" id="">
+                <option value="0">sdjfs</option>
+                <option value="1">100</option>
+            </select>
+        </span>
+        <span class="select">
+            <select name="" id="">
+                <option value="0">노토</option>
+                <option value="1">100</option>
+            </select>
+        </span>
+        <span class="select">
+            <select name="" id="">
+                <option value="0">100</option>
+                <option value="1">100</option>
+            </select>
+        </span>
+        <span class="select">
+            <select name="" id="">
+                <option value="0">100</option>
+                <option value="1">100</option>
+            </select>
+        </span>
+        <button type="button">제출</button>
+    </div>  
+    <p class="desc" style="vertical-align: -2px;">폰트 테스트입니다. 상단 폰트 얼마나<br> 위로 올라가는 지 페트스ㅡ</p>
+    <p>
+        adajdkasj
+    </p>
+    <table>
+        <tbody>
+            <tr>
+                <th>a</th>
+                <th>aa</th>
+                <th>aaa</th>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>캘린더a</h2>
+    <div class="calendar-box">
+		<span class="inp-cal-range">
+			<input type="date" name="" placeholder="YYYY-MM-DD" value="2020-03-09" id="calStart" title="보험시작일">
+		</span>
+		<i>~</i>
+		<span class="inp-cal-range">
+			<input type="date" name="" placeholder="YYYY-MM-DD" value="2020-03-09" id="calStart" title="보험종료일">
+		</span>
+	</div>
+    <style type="text/css">     
+    .calendar-box {margin-top:20px; font-size:0 }
+    .calendar-box > span {display:inline-block;}
+    .calendar-box label {display:block; margin-bottom:6px; font-size:12px; color:#666;}
+    .calendar-box i {display:inline-block; width:6%; font-size:12px; text-align:center; vertical-align: middle;}
+    .calendar-box .inp-cal-range { display:inline-block; width:47%;}
+    .calendar-box input[type='date'] {width:100%;border:1px solid #ccc; box-sizing:border-box}
+  
+      
+    /* date */
+    input[type='date'], input[type='time'],::-webkit-search-cancel-button, ::-webkit-clear-button {-webkit-appearance: none;}
+    input[type='date']
+    ,
+    ::-webkit-search-cancel-button,
+    ::-webkit-clear-button {background: url(https://img.favpng.com/24/2/22/calendar-icon-png-favpng-UPkMKJ8qTxuZxVJhMh693bfwa.jpg) no-repeat right 6% center/20px auto;}
+    input[type="date"]::-webkit-inner-spin-button { opacity: 0}
+    input[type="date"]::-webkit-calendar-picker-indicator {background: url(https://img.favpng.com/24/2/22/calendar-icon-png-favpng-UPkMKJ8qTxuZxVJhMh693bfwa.jpg) center/80% no-repeat; color: #111; opacity: 0.8}
+    input[type="date"]::-webkit-calendar-picker-indicator:hover {background: url(https://img.favpng.com/24/2/22/calendar-icon-png-favpng-UPkMKJ8qTxuZxVJhMh693bfwa.jpg) center/80% no-repeat; opacity: 1 }
+  
+      </style>
+</body>
+</html>
