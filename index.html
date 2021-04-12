@@ -33,7 +33,7 @@
 	#snb ul li.on a .icon{background:yellow}
 
 	#content{padding-top:50px}
-	#content article{min-height:500px;font-size:100px;text-align:center}
+	#content article{height:100vh;font-size:100px;text-align:center}
 	#content #cnt0{background:aqua}
 	#content #cnt1{background:pink}
 	#content #cnt2{background:yellow}
@@ -108,7 +108,7 @@
             * @param {number} _duration (Option) Duration time(ms) (Default. 800ms)
             * @param {number} _adjust (Option) Adjustment value of position
             */
-            animteScrollTo = function(_selector, _duration, _adjust, _) {
+            animteScrollTo = function(_selector, _duration, _adjust) {
             const targetEle = document.querySelector(_selector);
             if (!targetEle) return;
               console.log(targetEle);
@@ -155,7 +155,7 @@
           }
           cntPosY[i]=document.clientHeight-window.clientHeight;		//마지막 컨텐츠의 높이가 낮아 스크롤바가 가장 마지막에 위치한 경우도 변수에 저장
           
-          window.addEventListener("wheel", scrollMove);
+          window.addEventListener("wheel touch", scrollMove);
           function scrollMove () {
               var scrollY=window.scrollY
               for (var i=0; i<=total; i++) {
@@ -170,7 +170,7 @@
   
           //3) 마우스휠 움직이기
           cnt.forEach(function (cntElement) {
-            cntElement.addEventListener("wheel",function  (e) {
+            cntElement.addEventListener("wheel touch",function  (e) {
             var wheelNum=e.wheelDelta || e.detail*-1;
             var thisIdx= getElementIndex(e.target);     
             //아래로 이동(음수), 위로 이동(양수)
