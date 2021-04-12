@@ -28,10 +28,11 @@
     <script>
         var startX,startY, endX,endY;
         var box = document.querySelector(".box")
-        var top = document.querySelector(".toTop")
-        var bottom = document.querySelector(".toBottom")
-        var left = document.querySelector(".toLeft")
-        var right = document.querySelector(".toRight")
+        var txt = box.querySelectorAll("p")
+        var topCnt = document.querySelector(".toTop")
+        var btnCnt = document.querySelector(".toBottom")
+        var leftCnt = document.querySelector(".toLeft")
+        var rightCnt = document.querySelector(".toRight")
 
         box.addEventListener('touchstart',function(event){
             startX = event.changedTouches[0].screenX;
@@ -40,25 +41,31 @@
         box.addEventListener('touchend',function(event){
             endX=event.changedTouches[0].screenX;
             endY=event.changedTouches[0].screenY;
+            txt.forEach(function(t){
+              t.classList.remove("fadeOut")
+              t.classList.remove("fadeIn")
+            })
             if(startY-endY>50){
-              top.classList.add("fadeOut");
-              bottom.classList.add("fadeIn");  
+              topCnt.classList.add("fadeOut");
+              btnCnt.classList.add("fadeIn");  
             }else if(endY-startY>50){
-              bottom.classList.add("fadeOut");
-              top.classList.add("fadeIn");      
+              btnCnt.classList.add("fadeOut");    
+              topCnt.classList.add("fadeIn");      
             }else if(startY-endY<50 || endY-startY<50 ){
-              top.classList.add("fadeOut");
-              bottom.classList.add("fadeOut");
+              topCnt.classList.add("fadeOut");
+              btnCnt.classList.add("fadeOut");
             }
           if(startX-endX>50){
-              left.classList.add("fadeOut");
-              right.classList.add("fadeIn");      
+              leftCnt.classList.add("fadeOut");
+              rightCnt.classList.remove("fadeIn");      
+              rightCnt.classList.add("fadeIn");      
             }else if(endX-startX>50){
-              right.classList.add("fadeOut");
-              left.classList.add("fadeIn");      
+              rightCnt.classList.add("fadeOut");
+              leftCnt.classList.remove("fadeIn");      
+              leftCnt.classList.add("fadeIn");      
             }else if(startX-endX<50 || endX-startX<50 ){
-              right.classList.add("fadeOut");
-              left.classList.add("fadeOut");
+              rightCnt.classList.add("fadeOut");
+              leftCnt.classList.add("fadeOut");
             }
         });
   
