@@ -96,7 +96,8 @@ $ npm run dev
 - **React Query & Zustand**: 서버와 클라이언트 상태를 분리해 성능과 코드 유지보수 향상
 - **Tailwind CSS**: 빠른 스타일링과 일관성 있는 디자인 시스템 구성
 - **ESLint & Prettier**: 코드 품질 유지 및 팀 간 협업을 위한 포맷 통일
-
+- 
+---
 
 ## 📂 폴더 및 파일 구조 (Folder Structure)
 
@@ -163,7 +164,6 @@ $ npm run dev
 | 환경변수 | UPPER_SNAKE_CASE | NEXT_PUBLIC_API_URL |
 ---
 
----
 
 ## 🌿 Git Branch 전략
 
