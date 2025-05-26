@@ -13,7 +13,7 @@
 | **박찬영** | [@Parkchanyoung0710](https://github.com/Parkchanyoung0710) | 역할3 | <img src="https://avatars.githubusercontent.com/u/120624055?v=4" width="60" /> |
 | **오종택** | [@ohjongteak](https://github.com/ohjongteak) | 역할4 | <img src="https://avatars.githubusercontent.com/u/61350224?v=4" width="60" /> |
 | **전수영** | [@daonJeon](https://github.com/daonJeon) | 역할5 | <img src="https://avatars.githubusercontent.com/u/16948775?v=4" width="60" /> |
-| **조지현** | [@daonJeon](https://github.com/daonJeon) | 역할6 | <img src="https://avatars.githubusercontent.com/u/16948775?v=4" width="60" /> |
+| **조지현** | [@zeon0xx0](https://github.com/zeon0xx0) | 역할6 | <img src="https://avatars.githubusercontent.com/u/192935871?v=4" width="60" /> |
 
 ---
 
@@ -55,7 +55,7 @@ $ npm run dev
 | Language | ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) |
 | Framework | ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) |
 | Router | ![ReactRouter](https://img.shields.io/badge/React_Router-CA4245?style=flat-square&logo=react-router&logoColor=white) |
-| Styling | ![StyledComponents](https://img.shields.io/badge/Styled_Components-DB7093?style=flat-square&logo=styled-components&logoColor=white) |
+| Styling | ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white) |
 | API | ![Axios](https://img.shields.io/badge/Axios-5A29E4?style=flat-square) |
 | Auth | ![NextAuth](https://img.shields.io/badge/NextAuth.js-3B82F6?style=flat-square&logo=auth0&logoColor=white) |
 
@@ -86,40 +86,6 @@ $ npm run dev
 ---
 
 ## 📂 폴더 및 파일 구조 (Folder Structure)
-```bash
-wikid
-│
-├── .github          # Github 설정
-│
-├── public/          # 정적 파일들을 저장
-│    └── assets/     # 이미지, 아이콘 등 저장
-│         ├── icons/
-│         └── images/
-│
-├── src/
-│    ├── apis/
-│    │
-│    ├── components/ # 재사용 가능한 UI 컴포넌트
-│    │
-│    ├── costants/   # 상수 값 관리
-│    │
-│    ├── contexts/   # React Context API 관련 파일
-│    │
-│    ├── hooks/      # 커스텀 훅
-│    │
-│    ├── pages/      # 라우트 단위 페이지 컴포넌트
-│    │
-│    ├── styles/     # 공통 GlolbalStyle & Theme 관리
-│    │
-│    └── utils/      # 유틸리티 함수 모음
-│
-📄 .eslintrc.json        # ESLint 설정
-📄 .gitignore            # Git에서 무시할 파일 목록
-📄 next.config.js        # Next.js 설정
-📄 package.json          # 프로젝트 설정 및 의존성
-📄 tsconfig.json         # TypeScript 설정
-📄 README.md             # 프로젝트 설명 문서
-```
 
 ---
 
