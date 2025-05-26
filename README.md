@@ -8,12 +8,12 @@
 
 | 프로필 | 이름 | GitHub | 주요 담당 기능 |
 |--------|------|--------|----------------|
-| <img src="https://avatars.githubusercontent.com/u/81224667?v=4" width="60" /> | **나예진** | [@JjinJjin](https://github.com/NaYejin94) | 역할1 |
-| <img src="https://avatars.githubusercontent.com/u/81631735?v=4" width="60" /> | **박원현** | [@CIrcle0616](https://github.com/CIrcle0616) | 역할2 | 
-| <img src="https://avatars.githubusercontent.com/u/120624055?v=4" width="60" /> | **박찬영** | [@Parkchanyoung0710](https://github.com/Parkchanyoung0710) | 역할3 | 
-| <img src="https://avatars.githubusercontent.com/u/61350224?v=4" width="60" /> | **오종택** | [@ohjongteak](https://github.com/ohjongteak) | 역할4 |
-| <img src="https://avatars.githubusercontent.com/u/16948775?v=4" width="60" /> | **전수영** | [@daonJeon](https://github.com/daonJeon) | 역할5 |
-| <img src="https://avatars.githubusercontent.com/u/192935871?v=4" width="60" /> | **조지현** | [@zeon0xx0](https://github.com/zeon0xx0) | 역할6 |
+| <img src="https://avatars.githubusercontent.com/u/81224667?v=4" width="60" /> | **나예진** | [@JjinJjin](https://github.com/NaYejin94) | 역할1(추후 수정) |
+| <img src="https://avatars.githubusercontent.com/u/81631735?v=4" width="60" /> | **박원현** | [@CIrcle0616](https://github.com/CIrcle0616) | 역할2(추후 수정) | 
+| <img src="https://avatars.githubusercontent.com/u/120624055?v=4" width="60" /> | **박찬영** | [@Parkchanyoung0710](https://github.com/Parkchanyoung0710) | 역할3(추후 수정) | 
+| <img src="https://avatars.githubusercontent.com/u/61350224?v=4" width="60" /> | **오종택** | [@ohjongteak](https://github.com/ohjongteak) | 역할4(추후 수정) |
+| <img src="https://avatars.githubusercontent.com/u/16948775?v=4" width="60" /> | **전수영** | [@daonJeon](https://github.com/daonJeon) | 역할5(추후 수정) |
+| <img src="https://avatars.githubusercontent.com/u/192935871?v=4" width="60" /> | **조지현** | [@zeon0xx0](https://github.com/zeon0xx0) | 역할6(추후 수정) |
 
 ---
 
@@ -76,7 +76,6 @@ $ npm run dev
 
 ### 🔌 API & Auth
 ![Fetch API](https://img.shields.io/badge/Fetch_API-native?style=flat-square&logo=javascript&logoColor=white)
-![NextAuth](https://img.shields.io/badge/NextAuth.js-3B82F6?style=flat-square&logo=auth0&logoColor=white)
 
 ---
 
@@ -89,16 +88,19 @@ $ npm run dev
 ### 🧹 Code Quality
 ![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=flat-square&logo=eslint&logoColor=white)
 ![Prettier](https://img.shields.io/badge/Prettier-F7B93E?style=flat-square&logo=prettier&logoColor=black)
+
 ---
+
 ## 🤔 Why These Tools?
 
 - **Next.js (App Router)**: 파일 기반 라우팅과 서버 컴포넌트 지원으로 빠른 렌더링 성능
 - **React Query & Zustand**: 서버와 클라이언트 상태를 분리해 성능과 코드 유지보수 향상
 - **Tailwind CSS**: 빠른 스타일링과 일관성 있는 디자인 시스템 구성
 - **ESLint & Prettier**: 코드 품질 유지 및 팀 간 협업을 위한 포맷 통일
-- 
+
 ---
 
+ 
 ## 📂 폴더 및 파일 구조 (Folder Structure)
 
 ```
